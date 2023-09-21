@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+:root{
+    --height-footer: 50px;
+}
+
+/* COMMON */
+
+
+/* MAIN */
+.viewport{
+    width: 100%;
+    height: calc(100vh - var(--height-footer) );
+    background-color: rgb(209, 209, 112);  /*debug*/
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: var(--height-footer);
+    background-color: aquamarine;/*debug*/
+}
