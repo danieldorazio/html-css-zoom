@@ -7,19 +7,58 @@ img{
     max-width: 100%;
 }
 
+/* CUSTOM PROPERTIES */
 :root{
     --height-footer: 50px;
 }
 
 /* COMMON */
+.container{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(127, 255, 127); /*debug*/
+}
 
+.flex{
+    display: flex;
+}
 
-/* MAIN */
+/* MAIN VIEWPOERT */
 .viewport{
     width: 100%;
     height: calc(100vh - var(--height-footer) );
     background-color: rgb(209, 209, 112);  /*debug*/
 }
+
+.viewport.flex{
+    justify-content: center;
+    align-items: center;
+}
+
+.container.flex{
+    align-items: center;
+}
+
+    /* CARDS */
+
+.cards-row.flex{
+    flex-wrap: wrap;
+    gap: 1px;
+    row-gap: 5px;
+    justify-content: center;
+    
+    
+}
+.cards-col{
+    width: calc(99% / 7);
+    background-color: beige;
+}
+.cards-col .img{
+    display: block;
+}
+
+
+
 
 
 /* FOOTER */
