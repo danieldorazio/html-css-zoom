@@ -17,6 +17,10 @@ img{
     width: 90%;
     height: 90%;
 }
+.scroolbar{
+    overflow-y: auto;
+    height: 90%;
+}
 
 .flex{
     display: flex;
